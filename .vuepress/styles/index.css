@@ -1,0 +1,48 @@
+body {
+
+  /* 添加Banner背景颜色 调整 Banner 高度*/
+  .banner-brand__wrapper {
+    height: auto;
+    width: 100%;
+    @apply md:mt-16;
+    background-image: radial-gradient(rgba(93, 103, 232, 0.2) 10%, rgba(255, 255, 255, 0) 60%);   
+    .banner-brand__content{
+      max-width: 1024px;
+      padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    } 
+  }
+
+  /* 修改 work 区域背景 */
+  .works__container {
+    background-image: radial-gradient(rgba(239, 68, 68, 0.1) 10%, rgba(255, 255, 255, 0) 60%);
+  }
+
+  /* 修改 Logo 大小 */
+  .site-brand {
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 3rem;
+    font-weight: 800;
+  }
+
+  .site-brand .logo {
+    margin-right: 1rem;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+  }
+
+  /* 首页 social icon 大小 */
+  .banner-brand__wrapper .banner-brand__content ul.social-links li.social-item .xicon-icon {
+    width: 30px !important;
+    height: 30px !important;
+    color: #6f7dff82 !important;
+  }
+  
+  .features__container{
+    margin-top: 0px !important;
+  }
+}
+

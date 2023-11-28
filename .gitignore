@@ -1,4 +1,7 @@
-node modules/
-docs/.vuepress/theme
-package-lock.json
-public/
+**/.DS_Store
+.vuepress/.cache
+.vuepress/dist
+.vuepress/.temp
+blogs/.cache
+blogs/.temp
+node_modules
