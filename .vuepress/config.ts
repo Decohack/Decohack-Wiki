@@ -55,7 +55,7 @@ export default defineUserConfig({
     navbar: [
       // { text: "Home", link: "/" },
       {
-        text: "独立开发者完全手册",
+        text: "独立开发者实践手册",
         children: [
           { text: "💡 产品方向规划",
             link: "/docs/guide/01-产品方向规划/01-确定产品方向和目标受众.md",},
