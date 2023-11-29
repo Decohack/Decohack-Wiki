@@ -1,6 +1,6 @@
 ---
-title: Decohack Wiki 发布
-date: 2023/11/29 03:00:00
+title: 共建人招募
+date: 2023/11/29 13:12:00
 # categories: Blog
 ---
 ::: tip 介绍
