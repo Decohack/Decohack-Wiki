@@ -13,7 +13,10 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^2.0.0-rc.0",
     "vuepress": "^2.0.0-rc.0",
+    "vuepress-plugin-copyright2": "^2.0.0-rc.1",
+    "vuepress-plugin-seo2": "^2.0.0-rc.1",
     "vuepress-theme-reco": "^2.0.0-rc.1"
   }
 }

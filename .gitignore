@@ -2,6 +2,7 @@
 .vuepress/.cache
 .vuepress/dist
 .vuepress/.temp
+.vuepress/backup-file
 blogs/.cache
 blogs/.temp
 node_modules

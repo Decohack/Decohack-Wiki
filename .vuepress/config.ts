@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+// import { copyrightPlugin } from "vuepress-plugin-copyright2";
 
 export default defineUserConfig({
   base: "/",
@@ -25,12 +26,32 @@ export default defineUserConfig({
         },
       ],
       ["script", { src: "scripts/demo.js" }],
+      [
+        'script',
+        {
+          async: true,
+          src: 'https://analytics.eu.umami.is/script.js',
+          'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d'
+        }
+      ]
     ],
     locales: {
       "/": {
         lang: "zh-CN",
       },
     },
+
+    // plugins: [
+    //   copyrightPlugin({
+    //     author: "Decohack",
+    //     license: "CC0",
+    //     global: true,
+    //     triggerLength: 200,
+    //     // disableCopy: true,
+    //     disableSelection: true,
+    //   }),
+    // ],
+
     navbar: [
       // { text: "Home", link: "/" },
       {
@@ -55,9 +76,10 @@ export default defineUserConfig({
             link: "/docs/guide/06-社区资源分享/01-产品灵感库.md" },
         ],
       },
-      { text: "Github", link: "https://github.com/Decohack/Decohack-Wiki", icon: "LogoGithub" },
+      { text: "博客", link: "/posts/",},
       { text: "更新记录", link: "/timeline/", icon: "reco-date" },
       { text: "共建人", link: "/friendship-link/", icon: "reco-date" },
+      { text: "Github", link: "https://github.com/Decohack/Decohack-Wiki", icon: "LogoGithub" },
     ],
 
     // series 为原 sidebar
@@ -149,8 +171,16 @@ export default defineUserConfig({
       body: [
         {
           type: "text",
-          content: `Decohack Wiki 独立开发者手册正在更新中，如果有任何问题请扫描下方微信联系我`,
-          style: "font-size: 13px;",
+          content: `Decohack Wiki 独立开发者手册正在更新中。`,
+          style: "font-size: 13px;font-weight: 600;",
+        },
+        // {
+        //   type: "hr",
+        // },
+        {
+          type: "text",
+          content: `如果你有兴趣参与共建 Wiki，请扫描下方微信联系我`,
+          style: "font-size: 13px;font-weight: 600;",
         },
         {
           type: "title",
@@ -159,10 +189,11 @@ export default defineUserConfig({
         {
           type: "title",
           content: `wechat: viggoz`,
-          style: "font-size: 13px; text-align: center;color: rgba(235, 235, 245, .6);",
+          style: "font-size: 13px; text-align: left;color: rgba(235, 235, 245, .6);",
         },
       ],
     },
+    
     // commentConfig: {
     //   type: 'valie',
     //   // options 与 1.x 的 valineConfig 配置一致

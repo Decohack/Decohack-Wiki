@@ -1,5 +1,5 @@
 ---
-title: Decohack Wiki 发布
+title: 🎉 Decohack Wiki 发布
 date: 2023/11/29 03:00:00
 # categories: Blog
 ---
@@ -9,3 +9,5 @@ date: 2023/11/29 03:00:00
 3. 如果有任何问题请添加微信联系我：**wechat: viggoz** ;
 4. 本项目开源地址：[Decohack-Wiki](https://github.com/Decohack/Decohack-Wiki).
 :::
+
+### Made with ❤ in Shenzhen
