@@ -43,5 +43,19 @@ body {
   .features__container{
     margin-top: 0px !important;
   }
+  /* 限制内容最大宽度 */
+  @media (min-width: 768px){
+  .theme-container .theme-reco-default-content, .theme-container .page-container .page-title, .theme-container .page-container .page-info, .theme-container .page-meta, .theme-container .page-nav, .theme-container .reco-valine-wrapper, .theme-container .reco-vssue-wrapper {
+      padding-left: 6.5rem;
+      padding-right: 6.5rem;
+      }
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
 }
 
