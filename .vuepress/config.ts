@@ -26,14 +26,7 @@ export default defineUserConfig({
         },
       ],
       ["script", { src: "scripts/demo.js" }],
-      [
-        'script',
-      {
-        async: true,
-        src: 'https://eu.umami.is/script.js',
-        'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d'
-      }
-      ]
+      ['script', { async: true, src: 'https://eu.umami.is/script.js', 'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d' }],
     ],
     locales: {
       "/": {
