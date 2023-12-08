@@ -1,7 +1,6 @@
 ---
 title: APP运营模式名词解释
 date: 2023/12/02 12:04:00
-# categories: Blog
 ---
 
 ::: tip 介绍

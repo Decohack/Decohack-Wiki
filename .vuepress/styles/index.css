@@ -57,5 +57,28 @@ body {
     aspect-ratio: 16 / 9;
   }
 
+  /* 共建人页面 friendship-link 样式 */
+  .friendship-link-container .friendship-link-item .logo{
+    height: 4rem;
+    width: 4rem;
+    background-color: #ffffff;
+  }
+  .friendship-link-container .friendship-link-item p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .friendship-link-container .friendship-link-item h3{
+    line-height: 1;
+    margin-bottom: 0rem;
+    margin-top: -2.5rem;
+  }
+  .friendship-link-container .friendship-link-item{
+    display: block;
+  }
+  @media (min-width: 768px){
+    .friendship-link-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
 }
 

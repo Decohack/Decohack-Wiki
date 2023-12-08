@@ -28,11 +28,11 @@ export default defineUserConfig({
       ["script", { src: "scripts/demo.js" }],
       [
         'script',
-        {
-          async: true,
-          src: 'https://analytics.eu.umami.is/script.js',
-          'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d'
-        }
+      {
+        async: true,
+        src: 'https://eu.umami.is/script.js',
+        'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d'
+      }
       ]
     ],
     locales: {
@@ -77,7 +77,8 @@ export default defineUserConfig({
         ],
       },
       { text: "博客", link: "/posts/",},
-      { text: "更新记录", link: "/timeline/", icon: "reco-date" },
+      // { text: "更新记录", link: "/timeline/", icon: "reco-date" },
+      { text: "更新记录", link: "/blogs/other/release.md"},
       { text: "共建人", link: "/friendship-link/", icon: "reco-date" },
       { text: "Github", link: "https://github.com/Decohack/Decohack-Wiki", icon: "LogoGithub" },
     ],
@@ -86,11 +87,11 @@ export default defineUserConfig({
     series: {
       "/docs/guide/": [
         '/docs/guide/index.md',
+        "/docs/guide/信息搜索实操秘技.md",
+        "/docs/guide/全平台翻译工具使用.md",
         {
           text: "产品方向规划 💡",
           children: [
-            "/docs/guide/01-产品方向规划/信息搜索实操秘技.md",
-            "/docs/guide/01-产品方向规划/Decohack内容源网站.md",
             "/docs/guide/01-产品方向规划/01-寻找产品灵感.md",
             "/docs/guide/01-产品方向规划/02-市场调研竞品分析.md",
             "/docs/guide/01-产品方向规划/03-确定产品方向和目标受众.md",
@@ -151,24 +152,10 @@ export default defineUserConfig({
 
     friendshipLinks: [
       {
-        title: "Decohack 周刊",
-        logo: "/logo.png",
-        link: "https://www.decohack.com",
-      },
-      {
-        title: "Decohack 周刊",
-        logo: "/logo.png",
-        link: "https://www.decohack.com",
-      },
-      {
-        title: "Decohack 周刊",
-        logo: "/logo.png",
-        link: "https://www.decohack.com",
-      },
-      {
-        title: "Decohack 周刊",
-        logo: "/logo.png",
-        link: "https://www.decohack.com",
+        title: "viggo",
+        description: "移动互联网出海，Indie Hacker，设计师，Decohack/Webstack作者",
+        logo: "/friendship/viggo.jpg",
+        link: "https://x.com/decohack",
       },
     ],
     bulletin: {
