@@ -8,6 +8,17 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Decohack-Wiki",
   description: "Indie Hacker Guide",
+  head: [
+          ["link", { rel: "icon", href: "/favicon.ico" }],
+          [
+            "script",
+            {
+              async: true,
+              src: "https://eu.umami.is/script.js",
+              "data-website-id": "5fe322a1-472a-4f0d-8fd1-755a963f0d6d",
+            },
+          ],
+        ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     colorMode: "dark",
@@ -25,8 +36,12 @@ export default defineUserConfig({
           href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css",
         },
       ],
-      ["script", { src: "scripts/demo.js" }],
-      ['script', { async: true, src: 'https://eu.umami.is/script.js', 'data-website-id': '5fe322a1-472a-4f0d-8fd1-755a963f0d6d' }],
+      [
+        "script",
+        { 
+          src: "scripts/demo.js" 
+        },
+      ],
     ],
     locales: {
       "/": {

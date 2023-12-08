@@ -68,6 +68,14 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 author: Decohack
+
+footer:
+  record: umami
+  recordLink: 'https://eu.umami.is/share/f7LddmdKEEaPwQVN/Decohack-Wiki'
+  # cyberSecurityRecord: 公安备案文案
+  # cyberSecurityLink: 公安备案地址
+  # startYear: 本网站开始时间
+
 ---
 
 ## 关于 Decohack Wiki
