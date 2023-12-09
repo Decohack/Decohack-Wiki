@@ -10,7 +10,7 @@ modules:
 bannerBrand:
   title: Decohack Wiki
   description: 独立开发者实践手册
-  tagline: 这是一个独立开发者的实践手册，旨在帮助更多的人做出自己的产品，帮助有想法的人设计和落地运营自己的互联网产品，扩展自己的知识边界。
+  tagline: 这是一个独立开发者的实践手册，旨在帮助更多的人找到适合自己的利基(Niche)市场，结合AI技术帮助有想法的人设计和落地运营自己的互联网产品。
   buttons:
     - { text: 查看手册, link: '/docs/guide/index.md' }
     - { text: 参与共建, link: '/blogs/other/recruitment.md', type: 'plain' }
@@ -110,7 +110,7 @@ footer:
 
 > viggo.zw@gmail.com
 
-![](/wechat.png)
+![](/resource/wechat.png)
 
 ## 关于本站
 1. 本站基于 vuepress 搭建，使用[vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco) 主题修改而成；

@@ -6,10 +6,10 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "Decohack-Wiki",
-  description: "Indie Hacker Guide",
+  title: "独立开发者实践手册 - Decohack Wiki",
+  description: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场.",
   head: [
-          ["link", { rel: "icon", href: "/favicon.ico" }],
+          ["link", { rel: "icon", href: "/resource/favicon.ico" }],
           [
             "script",
             {
@@ -18,11 +18,23 @@ export default defineUserConfig({
               "data-website-id": "5fe322a1-472a-4f0d-8fd1-755a963f0d6d",
             },
           ],
+          ["meta",{ property: "og:title", content: "独立开发者实践手册 - Decohack Wiki" }],
+          ["meta",{ property: "og:description", content: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场." }],
+          ["meta",{ property: "og:image", content: "/resource/og.jpg" }],
+          ["meta",{ property: "og:url", content: "https://wiki.decohack.com" }],
+          ["meta",{ property: "og:type", content: "website" }],
+          // twitter
+          ["meta",{ name: "twitter:card", content: "summary_large_image" }],
+          ["meta",{ property: "twitter:domain", content: "wiki.decohack.com" }],
+          ["meta",{ property: "twitter:url", content: "https://wiki.decohack.com" }],
+          ["meta",{ name: "twitter:title", content: "独立开发者实践手册 - Decohack Wiki" }],
+          ["meta",{ name: "twitter:description", content: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场." }],
+          ["meta",{ name: "og:image", content: "/resource/og.jpg" }],
         ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     colorMode: "dark",
-    logo: "/logo.png",
+    logo: "/resource/logo.png",
     author: "viggo",
     docsBranch: "master",
     docsDir: "example",
@@ -162,7 +174,7 @@ export default defineUserConfig({
       {
         title: "viggo",
         description: "移动互联网出海，Indie Hacker，设计师，Decohack/Webstack作者",
-        logo: "/friendship/viggo.jpg",
+        logo: "/resource/friendship/viggo.jpg",
         link: "https://x.com/decohack",
       },
     ],
@@ -183,7 +195,7 @@ export default defineUserConfig({
         },
         {
           type: "title",
-          content: `<img src="/wechat.png" alt="Decohack-Wiki">`,
+          content: `<img src="/resource/wechat.png" alt="Decohack-Wiki">`,
         },
         {
           type: "title",
