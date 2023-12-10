@@ -6,7 +6,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "独立开发者实践手册 - Decohack Wiki",
+  title: "Decohack Wiki",
   description: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场.",
   head: [
           ["link", { rel: "icon", href: "/resource/favicon.ico" }],
