@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,a as e,b as a}from"./app-NafWWn9-.js";const c={},h=e("h2",{id:"todo",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#todo","aria-hidden":"true"},"#"),a(" TODO:")],-1),n=[h];function r(d,_){return s(),t("div",null,n)}const l=o(c,[["render",r],["__file","04-chubudeshangyemoshisheji.html.vue"]]);export{l as default};

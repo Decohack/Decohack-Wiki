@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as c}from"./app-NafWWn9-.js";const n={},s=e("h2",{id:"todo",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#todo","aria-hidden":"true"},"#"),c(" TODO:")],-1),r=[s];function _(d,i){return a(),o("div",null,r)}const l=t(n,[["render",_],["__file","02-chanpinUI-UXsheji.html.vue"]]);export{l as default};
