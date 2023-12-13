@@ -9,7 +9,7 @@ export default defineUserConfig({
   title: "Decohack Wiki",
   description: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场.",
   head: [
-          ["link", { rel: "icon", href: "/resource/favicon.ico" }],
+          ["link", { rel: "icon", href: "https://wiki.decohack.com/resource/favicon.ico" }],
           [
             "script",
             {
@@ -20,7 +20,7 @@ export default defineUserConfig({
           ],
           ["meta",{ property: "og:title", content: "独立开发者实践手册 - Decohack Wiki" }],
           ["meta",{ property: "og:description", content: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场." }],
-          ["meta",{ property: "og:image", content: "/resource/og.jpg" }],
+          ["meta",{ property: "og:image", content: "https://wiki.decohack.com/resource/og.jpg" }],
           ["meta",{ property: "og:url", content: "https://wiki.decohack.com" }],
           ["meta",{ property: "og:type", content: "website" }],
           // twitter
@@ -29,7 +29,7 @@ export default defineUserConfig({
           ["meta",{ property: "twitter:url", content: "https://wiki.decohack.com" }],
           ["meta",{ name: "twitter:title", content: "独立开发者实践手册 - Decohack Wiki" }],
           ["meta",{ name: "twitter:description", content: "帮助有想法的人做出自己的产品,结合AI技术设计落地运营自己的互联网产品,帮助更多的人找到适合自己的利基(Niche)市场." }],
-          ["meta",{ name: "og:image", content: "/resource/og.jpg" }],
+          ["meta",{ name: "og:image", content: "https://wiki.decohack.com/resource/og.jpg" }],
         ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",

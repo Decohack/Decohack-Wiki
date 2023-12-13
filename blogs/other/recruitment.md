@@ -23,4 +23,4 @@ date: 2023/11/29 13:12:00
 
 > viggo.zw@gmail.com
 
-![](/wechat.png)
+![]/resource/wechat.png)

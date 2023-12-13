@@ -41,7 +41,7 @@ date: 2023/11/29
 
 > viggo.zw@gmail.com
 
-![](/wechat.png)
+![](/resource/wechat.png)
 
 ## 关于本站
 1. 本站基于 vuepress 搭建，使用[vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco) 主题修改而成；
